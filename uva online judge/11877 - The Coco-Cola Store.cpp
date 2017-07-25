@@ -8,10 +8,10 @@ int main()
     float coca;
     while(1){
         scanf("%d",&n);
-        if(n==EOF)break;
+        if(n==0)break;
         coca=((float)n*3-1)/2;
         con=ceil(coca);
-        cout<<con<<endl;
+        cout<<con-n<<endl;
         }
     return 0;
 }
